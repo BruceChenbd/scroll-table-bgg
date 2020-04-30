@@ -1,0 +1,39 @@
+.tbox {
+    width: 60%;
+    margin: auto;
+}
+.theader {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.cell {
+    flex: 1;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #e2e2e2;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+}
+.list {
+    animation: scroll 10s  linear infinite;
+    position: relative;
+    list-style: none;
+}
+.tbody {
+    height: 5 * 30px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.tableItem {
+    display: flex;
+    height: 30px;
+}
+@keyframes scroll {
+    from { top: 0; }
+    to { top: -20 * 30 }
+}  

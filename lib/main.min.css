@@ -1,0 +1,18 @@
+._2U_82bAQtK7pq2zh_BEbE9 {
+    display: inline-block !important;
+}
+._2U_82bAQtK7pq2zh_BEbE9 button {
+    width: 80px;
+    height: 35px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    background-color: #40a9ff;
+    cursor: pointer;
+}
+._2U_82bAQtK7pq2zh_BEbE9 button:hover {
+    color: #fff;
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+    opacity: 0.8;
+}
