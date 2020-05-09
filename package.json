@@ -1,7 +1,7 @@
 {
-  "name": "bgg-graph",
-  "version": "1.0.0",
-  "description": "一个固定表头上下循环轮播的表格",
+  "name": "bgg-audio",
+  "version": "1.0.1",
+  "description": "一个基于html5 audio标签的播放组件",
   "main": "lib/index.js",
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.config.js",
@@ -10,8 +10,8 @@
   },
   "keywords": [
     "react",
-    "table",
-    "scroll"
+    "audio",
+    "自定义样式"
   ],
   "author": "陈宝东",
   "license": "ISC",

@@ -1,27 +1,20 @@
 ### 安装
 ```
-npm install npm-react-bg-pack
+npm install bgg-audio
 ```
 ### 使用
 ```
-import BggBtn from 'npm-react-bg-pack';
-import 'npm-react-bg-pack/lib/main.min.css';
+import BggAudio from 'bgg-audio';
+import 'bgg-audio/lib/main.min.css';
 
 
 const Demo = (props) => {
     const click = () => {}
-    return <BggBtn width={100} height={50} color={'#fff'} bgColor={'#eee'} txt={'我是按钮文字'} onClick={click} />
+    return <BggAudio src={xx} id={xxx} />
 }
 ```
 ### 接受属性
 ```
-width: number,
-height: number,
-color: string,
-bgColor: string,
-txt: string
-```
-### 事件
-```
-onClick: Function
+src: 文件source 项目中使用需要在webpack中配置加载音频类型的loader
+id: 当前audio的id
 ```
